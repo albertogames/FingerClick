@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC10C371179C60CE00C41894 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC10C370179C60CE00C41894 /* UIKit.framework */; };
+		DC10C373179C60CE00C41894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC10C372179C60CE00C41894 /* Foundation.framework */; };
+		DC10C375179C60CE00C41894 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC10C374179C60CE00C41894 /* CoreGraphics.framework */; };
+		DC10C37B179C60CE00C41894 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC10C379179C60CE00C41894 /* InfoPlist.strings */; };
+		DC10C37D179C60CE00C41894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10C37C179C60CE00C41894 /* main.m */; };
+		DC10C381179C60CE00C41894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10C380179C60CE00C41894 /* AppDelegate.m */; };
+		DC10C383179C60CE00C41894 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC10C382179C60CE00C41894 /* Default.png */; };
+		DC10C385179C60CE00C41894 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC10C384179C60CE00C41894 /* Default@2x.png */; };
+		DC10C387179C60CE00C41894 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC10C386179C60CE00C41894 /* Default-568h@2x.png */; };
+		DC10C38A179C60CE00C41894 /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10C389179C60CE00C41894 /* MenuController.m */; };
+		DC10C38D179C60CE00C41894 /* MenuController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC10C38B179C60CE00C41894 /* MenuController_iPhone.xib */; };
+		DC10C390179C60CE00C41894 /* MenuController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC10C38E179C60CE00C41894 /* MenuController_iPad.xib */; };
+		DC10C398179C60CF00C41894 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC10C397179C60CF00C41894 /* SenTestingKit.framework */; };
+		DC10C399179C60CF00C41894 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC10C370179C60CE00C41894 /* UIKit.framework */; };
+		DC10C39A179C60CF00C41894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC10C372179C60CE00C41894 /* Foundation.framework */; };
+		DC10C3A2179C60CF00C41894 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC10C3A0179C60CF00C41894 /* InfoPlist.strings */; };
+		DC10C3A5179C60CF00C41894 /* FingerClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10C3A4179C60CF00C41894 /* FingerClickTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC10C39B179C60CF00C41894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC10C365179C60CE00C41894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC10C36C179C60CE00C41894;
+			remoteInfo = FingerClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC10C36D179C60CE00C41894 /* FingerClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC10C370179C60CE00C41894 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC10C372179C60CE00C41894 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC10C374179C60CE00C41894 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC10C378179C60CE00C41894 /* FingerClick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingerClick-Info.plist"; sourceTree = "<group>"; };
+		DC10C37A179C60CE00C41894 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC10C37C179C60CE00C41894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC10C37E179C60CE00C41894 /* FingerClick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingerClick-Prefix.pch"; sourceTree = "<group>"; };
+		DC10C37F179C60CE00C41894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC10C380179C60CE00C41894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC10C382179C60CE00C41894 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DC10C384179C60CE00C41894 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DC10C386179C60CE00C41894 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC10C388179C60CE00C41894 /* MenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		DC10C389179C60CE00C41894 /* MenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		DC10C38C179C60CE00C41894 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MenuController_iPhone.xib; sourceTree = "<group>"; };
+		DC10C38F179C60CE00C41894 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MenuController_iPad.xib; sourceTree = "<group>"; };
+		DC10C396179C60CF00C41894 /* FingerClickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerClickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC10C397179C60CF00C41894 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC10C39F179C60CF00C41894 /* FingerClickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingerClickTests-Info.plist"; sourceTree = "<group>"; };
+		DC10C3A1179C60CF00C41894 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC10C3A3179C60CF00C41894 /* FingerClickTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerClickTests.h; sourceTree = "<group>"; };
+		DC10C3A4179C60CF00C41894 /* FingerClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerClickTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC10C36A179C60CE00C41894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC10C371179C60CE00C41894 /* UIKit.framework in Frameworks */,
+				DC10C373179C60CE00C41894 /* Foundation.framework in Frameworks */,
+				DC10C375179C60CE00C41894 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC10C392179C60CF00C41894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC10C398179C60CF00C41894 /* SenTestingKit.framework in Frameworks */,
+				DC10C399179C60CF00C41894 /* UIKit.framework in Frameworks */,
+				DC10C39A179C60CF00C41894 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC10C364179C60CE00C41894 = {
+			isa = PBXGroup;
+			children = (
+				DC10C376179C60CE00C41894 /* FingerClick */,
+				DC10C39D179C60CF00C41894 /* FingerClickTests */,
+				DC10C36F179C60CE00C41894 /* Frameworks */,
+				DC10C36E179C60CE00C41894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC10C36E179C60CE00C41894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC10C36D179C60CE00C41894 /* FingerClick.app */,
+				DC10C396179C60CF00C41894 /* FingerClickTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC10C36F179C60CE00C41894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC10C370179C60CE00C41894 /* UIKit.framework */,
+				DC10C372179C60CE00C41894 /* Foundation.framework */,
+				DC10C374179C60CE00C41894 /* CoreGraphics.framework */,
+				DC10C397179C60CF00C41894 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC10C376179C60CE00C41894 /* FingerClick */ = {
+			isa = PBXGroup;
+			children = (
+				DC10C37F179C60CE00C41894 /* AppDelegate.h */,
+				DC10C380179C60CE00C41894 /* AppDelegate.m */,
+				DC10C388179C60CE00C41894 /* MenuController.h */,
+				DC10C389179C60CE00C41894 /* MenuController.m */,
+				DC10C38B179C60CE00C41894 /* MenuController_iPhone.xib */,
+				DC10C38E179C60CE00C41894 /* MenuController_iPad.xib */,
+				DC10C377179C60CE00C41894 /* Supporting Files */,
+			);
+			path = FingerClick;
+			sourceTree = "<group>";
+		};
+		DC10C377179C60CE00C41894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC10C378179C60CE00C41894 /* FingerClick-Info.plist */,
+				DC10C379179C60CE00C41894 /* InfoPlist.strings */,
+				DC10C37C179C60CE00C41894 /* main.m */,
+				DC10C37E179C60CE00C41894 /* FingerClick-Prefix.pch */,
+				DC10C382179C60CE00C41894 /* Default.png */,
+				DC10C384179C60CE00C41894 /* Default@2x.png */,
+				DC10C386179C60CE00C41894 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC10C39D179C60CF00C41894 /* FingerClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC10C3A3179C60CF00C41894 /* FingerClickTests.h */,
+				DC10C3A4179C60CF00C41894 /* FingerClickTests.m */,
+				DC10C39E179C60CF00C41894 /* Supporting Files */,
+			);
+			path = FingerClickTests;
+			sourceTree = "<group>";
+		};
+		DC10C39E179C60CF00C41894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC10C39F179C60CF00C41894 /* FingerClickTests-Info.plist */,
+				DC10C3A0179C60CF00C41894 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC10C36C179C60CE00C41894 /* FingerClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC10C3A8179C60CF00C41894 /* Build configuration list for PBXNativeTarget "FingerClick" */;
+			buildPhases = (
+				DC10C369179C60CE00C41894 /* Sources */,
+				DC10C36A179C60CE00C41894 /* Frameworks */,
+				DC10C36B179C60CE00C41894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerClick;
+			productName = FingerClick;
+			productReference = DC10C36D179C60CE00C41894 /* FingerClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC10C395179C60CF00C41894 /* FingerClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC10C3AB179C60CF00C41894 /* Build configuration list for PBXNativeTarget "FingerClickTests" */;
+			buildPhases = (
+				DC10C391179C60CF00C41894 /* Sources */,
+				DC10C392179C60CF00C41894 /* Frameworks */,
+				DC10C393179C60CF00C41894 /* Resources */,
+				DC10C394179C60CF00C41894 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC10C39C179C60CF00C41894 /* PBXTargetDependency */,
+			);
+			name = FingerClickTests;
+			productName = FingerClickTests;
+			productReference = DC10C396179C60CF00C41894 /* FingerClickTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC10C365179C60CE00C41894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AIGames;
+			};
+			buildConfigurationList = DC10C368179C60CE00C41894 /* Build configuration list for PBXProject "FingerClick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC10C364179C60CE00C41894;
+			productRefGroup = DC10C36E179C60CE00C41894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC10C36C179C60CE00C41894 /* FingerClick */,
+				DC10C395179C60CF00C41894 /* FingerClickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC10C36B179C60CE00C41894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC10C37B179C60CE00C41894 /* InfoPlist.strings in Resources */,
+				DC10C383179C60CE00C41894 /* Default.png in Resources */,
+				DC10C385179C60CE00C41894 /* Default@2x.png in Resources */,
+				DC10C387179C60CE00C41894 /* Default-568h@2x.png in Resources */,
+				DC10C38D179C60CE00C41894 /* MenuController_iPhone.xib in Resources */,
+				DC10C390179C60CE00C41894 /* MenuController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC10C393179C60CF00C41894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC10C3A2179C60CF00C41894 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC10C394179C60CF00C41894 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC10C369179C60CE00C41894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC10C37D179C60CE00C41894 /* main.m in Sources */,
+				DC10C381179C60CE00C41894 /* AppDelegate.m in Sources */,
+				DC10C38A179C60CE00C41894 /* MenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC10C391179C60CF00C41894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC10C3A5179C60CF00C41894 /* FingerClickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC10C39C179C60CF00C41894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC10C36C179C60CE00C41894 /* FingerClick */;
+			targetProxy = DC10C39B179C60CF00C41894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC10C379179C60CE00C41894 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC10C37A179C60CE00C41894 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC10C38B179C60CE00C41894 /* MenuController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC10C38C179C60CE00C41894 /* en */,
+			);
+			name = MenuController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DC10C38E179C60CE00C41894 /* MenuController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC10C38F179C60CE00C41894 /* en */,
+			);
+			name = MenuController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		DC10C3A0179C60CF00C41894 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC10C3A1179C60CF00C41894 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC10C3A6179C60CF00C41894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC10C3A7179C60CF00C41894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC10C3A9179C60CF00C41894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerClick/FingerClick-Prefix.pch";
+				INFOPLIST_FILE = "FingerClick/FingerClick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC10C3AA179C60CF00C41894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerClick/FingerClick-Prefix.pch";
+				INFOPLIST_FILE = "FingerClick/FingerClick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC10C3AC179C60CF00C41894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FingerClick.app/FingerClick";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerClick/FingerClick-Prefix.pch";
+				INFOPLIST_FILE = "FingerClickTests/FingerClickTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC10C3AD179C60CF00C41894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FingerClick.app/FingerClick";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerClick/FingerClick-Prefix.pch";
+				INFOPLIST_FILE = "FingerClickTests/FingerClickTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC10C368179C60CE00C41894 /* Build configuration list for PBXProject "FingerClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC10C3A6179C60CF00C41894 /* Debug */,
+				DC10C3A7179C60CF00C41894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC10C3A8179C60CF00C41894 /* Build configuration list for PBXNativeTarget "FingerClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC10C3A9179C60CF00C41894 /* Debug */,
+				DC10C3AA179C60CF00C41894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC10C3AB179C60CF00C41894 /* Build configuration list for PBXNativeTarget "FingerClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC10C3AC179C60CF00C41894 /* Debug */,
+				DC10C3AD179C60CF00C41894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC10C365179C60CE00C41894 /* Project object */;
+}
