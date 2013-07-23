@@ -25,7 +25,7 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-//COMENTARIO BORRAR SERVIDOR
+//COMENTARIO BORRAR CLIENTE
 }
 
 @end
